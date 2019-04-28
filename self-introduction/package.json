@@ -2,8 +2,8 @@
   "name": "self-introduction",
   "version": "0.1.0",
   "engines": {
-    /* "node": "10.15.1", */
-    /* "npm": "6.7.0", */
+    "node": "10.15.1",
+    "npm": "6.7.0",
     "yarn": "1.13.0"
   },
   "private": true,
@@ -12,7 +12,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "yarn build",
-    "start": "node server.js"
+    "start": "npm run build && node server.js",
+    /* "start": "node server.js" */
   },
   "dependencies": {
     "core-js": "^2.6.5",
