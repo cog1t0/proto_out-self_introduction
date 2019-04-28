@@ -12,8 +12,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "postinstall": "yarn build",
-    "start": "npm run build && node server.js",
-    /* "start": "node server.js" */
+    "start": "node server.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
